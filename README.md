@@ -55,4 +55,4 @@ https://CYBR-011.github.io/PLV-BSA-Study-Hub/
 
 ## Academic Disclaimer
 
-This project is an independent study aid made by 26-2031 created to support BSA students and reviewees. While structured around Philippine accounting standards and tax laws, always verify critical rules against the latest **BOA CPALE Syllabi**, PFRS/PAS issuances, and current BIR regulations.
+This project is an independent study aid made by 26-2031, created to support BSA students and reviewees. While structured around Philippine accounting standards and tax laws, always verify critical rules against the latest **BOA CPALE Syllabi**, PFRS/PAS issuances, and current BIR regulations.
