@@ -1,58 +1,55 @@
-# PLV BSA Study Hub
+PLV BSA Study Hub
 
-An all-in-one, standalone interactive study companion built for **Bachelor of Science in Accountancy (BSA)** students of **Pamantasan ng Lungsod ng Valenzuela (PLV)** and aspiring Filipino CPAs preparing for the **CPALE**.
+A standalone, single-file study app built for Bachelor of Science in Accountancy (BSA) students at Pamantasan ng Lungsod ng Valenzuela (PLV) and CPALE reviewees.
 
----
+Overview
 
-## Overview
+The entire application lives inside a single index.html file with no external dependencies, build tools, or backend servers. Because everything is self-contained, you can access it online via GitHub Pages or save the file locally and open it in any browser without an internet connection.
 
-**PLV BSA Study Hub** (`index.html`) is a zero-dependency, self-contained single-page web application designed to streamline accounting review, active recall, and study management. Because everything—styles, scripts, and study modules—is bundled into a single HTML file, it runs seamlessly both online via GitHub Pages and completely offline on any laptop, tablet, or smartphone.
+What's Inside
 
----
+CPALE Subject Coverage: Organized around the six board exam subjects:
 
-## Key Features
+FAR - Financial Accounting and Reporting (PFRS / PAS)
 
-- **Philippine BSA & CPALE Subject Alignment:** Organized around the six core licensure board subjects:
-  - **FAR** – Financial Accounting and Reporting (PFRS / PAS)
-  - **AFAR** – Advanced Financial Accounting and Reporting
-  - **MS** – Management Services
-  - **AUD** – Auditing (Theory & Practice)
-  - **TAX** – Taxation (Philippine Tax Code, TRAIN & CREATE updates)
-  - **RFBT** – Regulatory Framework for Business Transactions
-- **Active Recall & Practice Tools:** Interactive reviewers, drills, and concept summaries tailored for retention and problem-solving speed.
-- **Study Productivity Suite:** Built-in study organization and focus tools to help manage heavy accounting coursework and departmental exam prep.
-- **100% Standalone & Offline-Ready:** No backend server, database setup, or npm build step required—just open the file in any modern web browser.
+AFAR - Advanced Financial Accounting and Reporting
 
----
+MS - Management Services
 
-## Getting Started
+AUD - Auditing
 
-### Option 1: Access Online (GitHub Pages)
-Once deployed, open the live site directly in your browser:
-```text
+TAX - Taxation (NIRC, TRAIN, CREATE)
+
+RFBT - Regulatory Framework for Business Transactions
+
+Review & Practice: Concept summaries, practice drills, and active recall tools for departmental exams and board review.
+
+Study Tools: Built-in task and focus utilities to help keep track of review sessions.
+
+Usage
+
+Online
+
+Open the deployed page directly in your browser:
 https://CYBR-011.github.io/PLV-BSA-Study-Hub/
-```
 
-### Option 2: Run Offline Locally
-1. Download `index.html` from this repository (or click **Code → Download ZIP**).
-2. Double-click `index.html` to open it in Chrome, Edge, Safari, or Firefox.
-3. Bookmark the page for instant offline access anytime—even without an internet connection.
+Offline
 
----
+Download index.html from this repository (or click Code > Download ZIP and extract it).
 
-## Repository Structure
+Double-click index.html to open it in Chrome, Edge, Firefox, or Safari.
 
-```text
+Bookmark the local file path if you want quick offline access during commutes or review sessions.
+
+Repository Structure
+
 ├── .github/
 │   └── workflows/
-│       └── deploy.yml                # Automated GitHub Pages deployment workflow
-├── index.html                        # Self-contained single-file web application
-└── README.md                         # Project documentation
-```
-
----
+│       └── deploy.yml    # GitHub Pages deployment workflow
+├── index.html            # Main application file
+└── README.md             # Project documentation
 
 
-## Academic Disclaimer
+Disclaimer
 
-This project is an independent study aid made by 26-2031, created to support BSA students and reviewees. While structured around Philippine accounting standards and tax laws, always verify critical rules against the latest **BOA CPALE Syllabi**, PFRS/PAS issuances, and current BIR regulations.
+Made by 26-2031 as a personal and peer study resource. While the reviewers follow Philippine accounting standards and tax laws, always cross-check rules and computations against the latest BOA CPALE syllabi, PFRS/PAS updates, and current BIR issuances.
